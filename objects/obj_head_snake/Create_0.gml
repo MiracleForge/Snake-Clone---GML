@@ -7,10 +7,10 @@ left = 0;
 right = 0;
 up = 0;
 down = 0;
-current_direction = choose(down, up, right, left);
+current_direction = -1;
 
 cell_transition_time = NORMAL_SPEED;
-keyToAngleDirectionMap = -1;
+
 
 
 

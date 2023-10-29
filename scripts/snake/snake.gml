@@ -7,6 +7,12 @@ function updateDirectionAndAngle(keyMap) {
     for (var i = 0; i < array_length(keyOrder); i++) {
         var key = keyOrder[i];
         if (keyboard_check(key)) {
+            // Verifica se a tecla pressionada é oposta à última tecla
+            if (key == vk_up && current_direction == vk_down) continue;
+            if (key == vk_down && current_direction == vk_up) continue;
+            if (key == vk_left && current_direction == vk_right) continue;
+            if (key == vk_right && current_direction == vk_left) continue;
+            
             lastKeyPressed = key;
             break; // Pare a verificação assim que uma tecla for pressionada
         }
@@ -19,4 +25,3 @@ function updateDirectionAndAngle(keyMap) {
         image_angle = values[0]; // Defina image_angle com o valor associado à última tecla
     }
 }
-
