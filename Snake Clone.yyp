@@ -38,6 +38,7 @@
     {"id":{"name":"obj_head_snake","path":"objects/obj_head_snake/obj_head_snake.yy",},},
     {"id":{"name":"spr_cell","path":"sprites/spr_cell/spr_cell.yy",},},
     {"id":{"name":"obj_grid_cell","path":"objects/obj_grid_cell/obj_grid_cell.yy",},},
+    {"id":{"name":"snake","path":"scripts/snake/snake.yy",},},
     {"id":{"name":"spr_body_snake","path":"sprites/spr_body_snake/spr_body_snake.yy",},},
     {"id":{"name":"spr_head_snake","path":"sprites/spr_head_snake/spr_head_snake.yy",},},
     {"id":{"name":"obj_body_snake","path":"objects/obj_body_snake/obj_body_snake.yy",},},
