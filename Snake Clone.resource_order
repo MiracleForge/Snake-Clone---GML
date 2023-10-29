@@ -1,0 +1,26 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Conjuntos de tiles","order":2,"path":"folders/Conjuntos de tiles.yy",},
+    {"name":"Sons","order":3,"path":"folders/Sons.yy",},
+    {"name":"Caminhos","order":4,"path":"folders/Caminhos.yy",},
+    {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
+    {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
+    {"name":"Fontes","order":7,"path":"folders/Fontes.yy",},
+    {"name":"Linhas do tempo","order":8,"path":"folders/Linhas do tempo.yy",},
+    {"name":"Objetos","order":1,"path":"folders/Objetos.yy",},
+    {"name":"Cenas","order":9,"path":"folders/Cenas.yy",},
+    {"name":"Sequências","order":10,"path":"folders/Sequências.yy",},
+    {"name":"Curvas da animação","order":11,"path":"folders/Curvas da animação.yy",},
+    {"name":"Anotações","order":12,"path":"folders/Anotações.yy",},
+    {"name":"Extensões","order":13,"path":"folders/Extensões.yy",},
+    {"name":"Particle Systems","order":14,"path":"folders/Particle Systems.yy",},
+    {"name":"Snake","order":1,"path":"folders/Objetos/Snake.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"Sprite5","order":17,"path":"sprites/Sprite5/Sprite5.yy",},
+    {"name":"Sprite3","order":15,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"spr_cell","order":16,"path":"sprites/spr_cell/spr_cell.yy",},
+    {"name":"spr_body_snake","order":1,"path":"sprites/spr_body_snake/spr_body_snake.yy",},
+    {"name":"obj_body_snake","order":1,"path":"objects/obj_body_snake/obj_body_snake.yy",},
+  ],
+}
