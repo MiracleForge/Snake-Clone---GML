@@ -2,8 +2,10 @@ if (grid_item != -1) {
     if (place_meeting(x, y, obj_head_snake)) {
         image_blend = c_red;
         grid_item = -1;
+        global.body_party++;
     }
 }
+
 
 if (grid_item == -1) {
     // Variável de controle para evitar repetições
@@ -32,3 +34,5 @@ if (grid_item == -1) {
         count += 1;
     }
 }
+
+

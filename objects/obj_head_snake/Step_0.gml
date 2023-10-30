@@ -50,5 +50,9 @@ if (current_direction != -1) // -1 = no movement
     }
     
     cell_transition_time--;
+	update_position_body();
     move_wrap(true, false, GRID_SIZE_HEIGHT);
 }
+
+
+

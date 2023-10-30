@@ -1,11 +1,12 @@
 // Macros Definition
-#macro TOTAL_GRID_HEIGHT 8
-#macro TOTAL_GRID_WIDTH 15
-#macro GRID_SIZE_HEIGHT 128
-#macro GRID_SIZE_WIDTH 128
+#macro TOTAL_GRID_HEIGHT  8
+#macro TOTAL_GRID_WIDTH  15
+#macro GRID_SIZE_HEIGHT  128
+#macro GRID_SIZE_WIDTH   128
 #macro HALF_GRID_WIDTH (GRID_SIZE_WIDTH / 2)
 #macro HALF_GRID_HEIGHT (GRID_SIZE_HEIGHT / 2)
 
+global.snake_body_parts = ds_list_create();
 // Initialization of grid start position
 var _grid_start_x = 0;
 var _grid_start_y = 0;
