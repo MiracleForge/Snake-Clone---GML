@@ -4,6 +4,7 @@
 #macro NORMAL_SPEED 15
 #macro EASY_SPEED 25
 #macro HARD_SPEED 10
+#macro DIRECT_TIME 15
 
 // Directions 
 left = 0;
@@ -14,6 +15,7 @@ down = 0;
 current_direction = -1; // state with none 
 // Speed start
 cell_transition_time = NORMAL_SPEED;
+transition_direction_time = DIRECT_TIME;
 
 
 

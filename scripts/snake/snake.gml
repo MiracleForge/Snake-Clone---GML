@@ -6,13 +6,13 @@ function updateDirectionAndAngle(keyMap) {
 
     for (var i = 0; i < array_length(keyOrder); i++) {
         var key = keyOrder[i];
-        if (keyboard_check(key)) {
+        if (keyboard_check(key) && transition_direction_time <= 0) {
             // Verifica se a tecla pressionada é oposta à última tecla
             if (key == vk_up && current_direction == vk_down) continue;
             if (key == vk_down && current_direction == vk_up) continue;
             if (key == vk_left && current_direction == vk_right) continue;
             if (key == vk_right && current_direction == vk_left) continue;
-            
+			transition_direction_time = DIRECT_TIME;
             lastKeyPressed = key;
             break; // Pare a verificação assim que uma tecla for pressionada
         }
