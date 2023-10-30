@@ -32,7 +32,6 @@ while (_iy < TOTAL_GRID_HEIGHT) // O(n); linear
 		    //show_debug_message("Set grid_item to 1 for cell at X: " + string(_i) + " Y: " + string(_iy));
 		}
 
-
         _grid_start_x += GRID_SIZE_WIDTH;
 
         // Check if it's the center position of the map and create the snake's head
