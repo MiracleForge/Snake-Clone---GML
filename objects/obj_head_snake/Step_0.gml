@@ -36,10 +36,13 @@ if (current_direction != -1)
 	        y += GRID_SIZE_HEIGHT; // Mova para baixo
 	        break;
 	    default:
-	        // code here
+	        x -= GRID_SIZE_WIDTH; // Mova para a esquerda
 	        break;
 	}
 	cell_transition_time = NORMAL_SPEED;
 	}
+	
 cell_transition_time--;
+move_wrap(true, false, GRID_SIZE_HEIGHT );
+
 }

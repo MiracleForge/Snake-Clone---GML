@@ -12,15 +12,26 @@ var _grid_start_y = 0;
 var _iy = 0;
 
 // Coordinates of the center of the map
-var _center_map_x = floor(TOTAL_GRID_WIDTH / 2 - 1);
+var _center_map_x = floor((TOTAL_GRID_WIDTH / 2) - 1);
 var _center_map_y = TOTAL_GRID_HEIGHT / 2;
+
+var _random_item_x = irandom(TOTAL_GRID_WIDTH -1);
+var _random_item_y = irandom(TOTAL_GRID_HEIGHT -1);
 
 while (_iy < TOTAL_GRID_HEIGHT) // O(n); linear
 {
     for (var _i = 0; _i < TOTAL_GRID_WIDTH; _i++)
     {
         // Create a grid cell
-        instance_create_layer(_grid_start_x, _grid_start_y, "layer_grid", obj_grid_cell);
+        var inst = instance_create_layer(_grid_start_x, _grid_start_y, "layer_grid", obj_grid_cell);
+		//show_debug_message("Random X: " + string(_random_item_x) + " Random Y: " + string(_random_item_y));
+
+		if (_i == _random_item_x && _iy == _random_item_y)
+		{
+		    inst.grid_item = 1;
+		    //show_debug_message("Set grid_item to 1 for cell at X: " + string(_i) + " Y: " + string(_iy));
+		}
+
 
         _grid_start_x += GRID_SIZE_WIDTH;
 
@@ -31,7 +42,7 @@ while (_iy < TOTAL_GRID_HEIGHT) // O(n); linear
             var _y_center = _grid_start_y + HALF_GRID_HEIGHT;
             instance_create_layer(_x_center, _y_center, "layer_snake", obj_head_snake);
         }
-		
+
 		// add the new collun of cells
         if (_i == TOTAL_GRID_WIDTH - 1)
         {

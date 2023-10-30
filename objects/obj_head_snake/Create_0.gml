@@ -1,14 +1,18 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+//Speeds
 #macro NORMAL_SPEED 15
-// Directions 
+#macro EASY_SPEED 25
+#macro HARD_SPEED 10
 
+// Directions 
 left = 0;
 right = 0;
 up = 0;
 down = 0;
-current_direction = -1;
-
+// verifiing the last direction
+current_direction = -1; // state with none 
+// Speed start
 cell_transition_time = NORMAL_SPEED;
 
 
