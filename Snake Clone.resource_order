@@ -20,6 +20,7 @@
     {"name":"spr_cell","order":2,"path":"sprites/spr_cell/spr_cell.yy",},
     {"name":"spr_apple","order":3,"path":"sprites/spr_apple/spr_apple.yy",},
     {"name":"spr_body_snake","order":1,"path":"sprites/spr_body_snake/spr_body_snake.yy",},
+    {"name":"Cell_grids","order":1,"path":"scripts/Cell_grids/Cell_grids.yy",},
     {"name":"obj_body_snake","order":1,"path":"objects/obj_body_snake/obj_body_snake.yy",},
   ],
 }

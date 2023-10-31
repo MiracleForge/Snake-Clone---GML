@@ -1,4 +1,4 @@
-// Create a map to map keys to angle and direction values
+
 var keyToAngleDirectionMap = ds_map_create();
 
 // Add keys and their corresponding values to the map

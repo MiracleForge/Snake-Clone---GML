@@ -41,6 +41,7 @@
     {"id":{"name":"snake","path":"scripts/snake/snake.yy",},},
     {"id":{"name":"spr_apple","path":"sprites/spr_apple/spr_apple.yy",},},
     {"id":{"name":"spr_body_snake","path":"sprites/spr_body_snake/spr_body_snake.yy",},},
+    {"id":{"name":"Cell_grids","path":"scripts/Cell_grids/Cell_grids.yy",},},
     {"id":{"name":"spr_head_snake","path":"sprites/spr_head_snake/spr_head_snake.yy",},},
     {"id":{"name":"obj_body_snake","path":"objects/obj_body_snake/obj_body_snake.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

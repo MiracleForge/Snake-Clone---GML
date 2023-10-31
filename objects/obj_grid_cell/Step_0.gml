@@ -1,4 +1,4 @@
-if (cell_container!= -1) {
+if (cell_container == APPLE) {
     if (place_meeting(x, y, obj_head_snake)) {
         image_blend = c_red;
         cell_container= -1;
@@ -6,8 +6,7 @@ if (cell_container!= -1) {
     }
 }
 
-
-if (cell_container== -1) {
+if (cell_container== -1 && cell_container != BODY) {
     // Variável de controle para evitar repetições
     var grid_item_already_set = false;
 
@@ -28,8 +27,7 @@ if (cell_container== -1) {
 
         // Apenas uma instância deve ser ativada
         if (count == i) {
-            //instance_activate_object(self);
-            cell_container= APPLE;
+            cell_container = APPLE;
         }
         count += 1;
     }

@@ -1,15 +1,15 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+
+// Definições de macros para os valores de cell_container
 #macro BODY 2
 #macro APPLE 1
 
-cell_container= -1;
-active = false;
+// Inicialização das variáveis
+cell_container = -1; // Inicialmente, a célula não contém nada
 
-// BODY PARTES ------SNACKE
-global.body_party = 0;
-add_snake_part_controller = false;
-body_grid = false;
+// Configurações relacionadas às partes do corpo da cobra
+global.body_party = 0; // Inicializa o número de partes do corpo da cobra
+
+
 
 
 
