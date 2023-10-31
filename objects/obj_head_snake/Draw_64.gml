@@ -23,7 +23,7 @@ if (current_direction == 37)
 draw_text(0, 0, "Current Direction is " + direction_text);
 draw_text(0, 40, "Cell Transition Time: " + string(cell_transition_time));
 draw_text(0, 80, "Transition Direction Time: " + string(transition_direction_time));
-
+draw_text(0 , 120, "Number of parts: " + string(global.body_party));
 
 
 

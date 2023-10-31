@@ -16,6 +16,8 @@ current_direction = -1; // state with none
 // timers
 cell_transition_time = NORMAL_SPEED; 
 transition_direction_time = DIRECT_TIME;
+// No Create Event da cabeça da cobra (obj_head_snake)
+
 
 
 

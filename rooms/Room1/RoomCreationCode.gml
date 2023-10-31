@@ -3,10 +3,12 @@
 #macro TOTAL_GRID_WIDTH  15
 #macro GRID_SIZE_HEIGHT  128
 #macro GRID_SIZE_WIDTH   128
+#macro TOTAL_GRID_CELL TOTAL_GRID_HEIGHT * TOTAL_GRID_WIDTH
 #macro HALF_GRID_WIDTH (GRID_SIZE_WIDTH / 2)
 #macro HALF_GRID_HEIGHT (GRID_SIZE_HEIGHT / 2)
 
 global.snake_body_parts = ds_list_create();
+
 // Initialization of grid start position
 var _grid_start_x = 0;
 var _grid_start_y = 0;
@@ -29,8 +31,8 @@ while (_iy < TOTAL_GRID_HEIGHT) // O(n); linear
 
 		if (_i == _random_item_x && _iy == _random_item_y)
 		{
-		    inst.grid_item = 1;
-		    //show_debug_message("Set grid_item to 1 for cell at X: " + string(_i) + " Y: " + string(_iy));
+		    inst.cell_container= 1;
+		    //show_debug_message("Set cell_containerto 1 for cell at X: " + string(_i) + " Y: " + string(_iy));
 		}
 
         _grid_start_x += GRID_SIZE_WIDTH;
